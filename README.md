@@ -56,9 +56,9 @@ Untuk mencegah terjadinya *security misconfiguration*, proses pengerasan sistem 
 
 1. **(*Automated Hardening Process*):**
    * Buat template konfigurasi server yang aman dan terapkan secara konsisten di lingkungan *development*, *QA*, dan *production*.
-   * Gunakan konsep *Infrastructure as Code* (IaC) seperti Ansible, Terraform, atau Docker untuk memastikan konfigurasi yang konsisten.
+   * Gunakan konsep *Infrastructure as Code* (IaC) Docker untuk memastikan konfigurasi yang konsisten.
 
-2. **Hapus Komponen Tidak Penting:**
+2. **Hapus Komponen yang gak Penting:**
    * Hapus atau nonaktifkan fitur, komponen, dokumentasi, dan sampel kode bawaan (*default*) yang tidak digunakan.
 
 3. **Ubah Kredensial Default:**
@@ -75,6 +75,6 @@ Untuk mencegah terjadinya *security misconfiguration*, proses pengerasan sistem 
 
 ## 📝 Kesimpulan
 
-*Security misconfiguration* bukanlah masalah kelemahan kode (*code flaw*), melainkan masalah **tata kelola dan operasional**. Mengamankan konfigurasi membutuhkan konsistensi, audit berkala, dan pemahaman mendalam tentang setiap lapisan teknologi yang digunakan dalam infrastruktur aplikasi.
+*Security misconfiguration* itu bukan masalah kelemahan kode (*code flaw*), tetapi sebuah masalah tentang **tata kelola dan operasional**. Mengamankan konfigurasi membutuhkan konsistensi, audit berkala & pemahaman mendalam tentang setiap lapisan teknologi yang digunakan dalam infrastruktur aplikasi.
 
 ---
